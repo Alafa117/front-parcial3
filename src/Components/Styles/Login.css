@@ -1,22 +1,44 @@
 .login-container {
-  background-color: #4caf50; /* Fondo verde */
-  padding: 20px;
-  border-radius: 10px;
-  color: white; /* Texto blanco */
-  width: 300px;
-  margin: auto;
+  background: linear-gradient(145deg, #202124, #303134); /* Fondo con degradado oscuro */
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.6); /* Sombra para un efecto elevado */
+  border-radius: 12px;
+  padding: 30px;
+  color: #fff; /* Texto blanco */
+  max-width: 400px;
+  margin: 50px auto;
+  font-family: 'Roboto', sans-serif; /* Fuente moderna */
+  text-align: center; /* Centrado del contenido */
+}
+
+.login-container h1 {
+  font-size: 24px;
+  color: #ff0000; /* Rojo característico de YouTube */
+  margin-bottom: 20px;
+}
+
+.login-container p {
+  font-size: 14px;
+  color: #ccc; /* Texto secundario */
+  margin-bottom: 30px;
 }
 
 .login-button {
-  background-color: #ff5722; /* Botón naranja */
+  background: linear-gradient(145deg, #ff0000, #d00000); /* Rojo con degradado */
   border: none;
-  padding: 10px 20px;
-  color: white;
+  padding: 12px 25px;
+  color: #fff;
   font-weight: bold;
-  border-radius: 5px;
+  font-size: 16px;
+  border-radius: 8px;
   cursor: pointer;
+  transition: transform 0.2s ease, background 0.3s ease;
 }
 
 .login-button:hover {
-  background-color: #e64a19; /* Más oscuro al pasar el mouse */
+  background: #c00000; /* Rojo más oscuro al pasar el mouse */
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño */
+}
+
+.login-button:active {
+  transform: scale(0.95); /* Efecto al hacer clic */
 }
